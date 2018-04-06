@@ -1,0 +1,29 @@
+.father {
+  display: flex;
+  flex-direction: column;
+
+ }
+.container{
+  height: 300px;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+#one{
+  align-self: flex-start;
+}
+#two{
+  align-self: flex-end;
+}
+#three
+{
+  align-self: center;
+}
+#four{
+  align-self: baseline;
+  font-size: 25px;
+}
+#five{
+  align-self: stretch;
+}

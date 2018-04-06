@@ -1,0 +1,13 @@
+.father {
+  display: flex;
+  flex-direction: column;
+
+ }
+.container{
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+.container > div:nth-child(1){flex-grow: 1;color: yellow;}
+.container > div:nth-child(2){font-weight: bold;color: black;flex-grow: 2;}
+.container > div:nth-child(3){flex-grow: 1;color: red;}

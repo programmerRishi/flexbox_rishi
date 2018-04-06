@@ -1,0 +1,12 @@
+
+.container{
+  display: flex;
+  flex-flow: row nowrap;
+
+}
+#one {
+  flex-shrink: 1;background-color: yellow; color: black;}
+#two {font-weight: bold;
+  flex-shrink: 5;background-color: green;color: black;}
+#three {
+  flex-shrink: 1;color: red;}
